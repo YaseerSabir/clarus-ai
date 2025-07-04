@@ -5,8 +5,11 @@ public class AnalysisResult
     public Guid Id { get; set; }
     public Guid PatientId { get; set; }
     public Guid MedicalImageId { get; set; }
+    public Guid RequestedById { get; set; }
     public string AnalysisType { get; set; } = string.Empty;
+    public string Result { get; set; } = string.Empty;
     public string Findings { get; set; } = string.Empty;
+    public decimal Confidence { get; set; }
     public decimal ConfidenceScore { get; set; }
     public string Recommendations { get; set; } = string.Empty;
     public string AiModelVersion { get; set; } = string.Empty;
@@ -18,4 +21,5 @@ public class AnalysisResult
     
     public Patient Patient { get; set; } = null!;
     public MedicalImage MedicalImage { get; set; } = null!;
+    public User RequestedBy { get; set; } = null!;
 }

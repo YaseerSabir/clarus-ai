@@ -3,6 +3,7 @@ namespace ClarusAI.Core.Entities;
 public class Patient
 {
     public Guid Id { get; set; }
+    public string PatientId { get; set; } = string.Empty;
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
     public DateTime DateOfBirth { get; set; }
