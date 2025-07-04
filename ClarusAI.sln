@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarusAI.Core", "ClarusAI.Core\ClarusAI.Core.csproj", "{901F5469-7C60-4056-A21E-B353BF7561B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarusAI.Business", "ClarusAI.Business\ClarusAI.Business.csproj", "{4BFA51B2-F78F-45C7-993B-F1213E5EE86E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarusAI.Data", "ClarusAI.Data\ClarusAI.Data.csproj", "{FE935037-C3C6-447B-A847-0F15691A126F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarusAI.Web", "ClarusAI.Web\ClarusAI.Web.csproj", "{3789700F-2EEB-4051-A926-07F370162889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{901F5469-7C60-4056-A21E-B353BF7561B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901F5469-7C60-4056-A21E-B353BF7561B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901F5469-7C60-4056-A21E-B353BF7561B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901F5469-7C60-4056-A21E-B353BF7561B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFA51B2-F78F-45C7-993B-F1213E5EE86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFA51B2-F78F-45C7-993B-F1213E5EE86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFA51B2-F78F-45C7-993B-F1213E5EE86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFA51B2-F78F-45C7-993B-F1213E5EE86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE935037-C3C6-447B-A847-0F15691A126F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE935037-C3C6-447B-A847-0F15691A126F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE935037-C3C6-447B-A847-0F15691A126F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE935037-C3C6-447B-A847-0F15691A126F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3789700F-2EEB-4051-A926-07F370162889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3789700F-2EEB-4051-A926-07F370162889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3789700F-2EEB-4051-A926-07F370162889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3789700F-2EEB-4051-A926-07F370162889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
